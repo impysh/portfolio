@@ -1,0 +1,50 @@
+body {
+    padding-right:385px;
+    padding-left:385px;
+    padding-top:40px;
+    padding-bottom:40px;
+
+    font-family: monospace;
+}
+
+li {
+    list-style-type: circle;
+    font-size: 15px
+}
+
+nav.navbar a:hover {
+    background-color: white;
+}
+
+h5 {
+    font-size: 17.5px
+}
+
+p {
+    font-size: 15px
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+}
+
+.image-item {
+  text-align: center; 
+}
+
+.image-item img {
+  width: 200px;
+  height: auto;
+}
+
+/*
+nav -> html element
+navbar -> visual component that displays nav links
+*/
+
+@font-face {
+    font-family: DejaVu Sans Mono;
+    src: url("fonts/DejaVuSansMono.ttf");
+}
